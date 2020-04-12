@@ -1,0 +1,30 @@
+body
+{
+	background-color: #F5F5DC;
+	background-size: cover;
+	opacity: 0-1px;
+	box-sizing: border-box;
+	font-size: px;
+	font-family: cursive;
+}
+#t1
+{
+	color: 0000000;
+
+}
+#p1
+{
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 18px;
+}
+#btnn
+{
+	margin-left: 600px;
+	width: 60px;
+	height: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	color: #483D8B;
+	margin-top: 180px;
+}

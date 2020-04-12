@@ -1,0 +1,116 @@
+body
+{
+	background-color:#D2691E;
+	background-size: cover;
+	opacity: 0.5px;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+p
+{
+	font-family: cursive;
+}
+#br
+
+{
+	margin-left: 600px;
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+	font-weight: bold;
+	color: #7FFFD4;
+	font-size: 18px;
+}
+#al
+{
+	width: 180px;
+	height: 120px;
+	opacity: 0.5px;
+	margin-left: 50px;
+
+}
+#al1
+{
+	width: 180px;
+	height: 120px;
+	opacity: 0.5px;
+}
+#hh
+{
+	font-family: serif;
+	font-weight: bolder;
+	font-size: 40px;
+	color: #000000;
+
+}
+#pw
+{
+	font-weight: bold;
+	font-size: 18px;
+}
+#alb
+{
+	width: 300px;
+	height: 200px;
+	opacity: 0.5px;
+
+}
+#alb1
+{
+	width: 300px;
+	height: 200px;
+	opacity: 0.5px;
+	margin-left: 40px;
+}
+#i1
+{
+	width: 300px;
+	height: 250px;
+	opacity: 0.6px;
+	margin-left: 200px;
+}
+#p0
+{
+	font-weight: bold;
+	font-size: 20px;
+
+}
+#pp
+{
+	 width: 500px;
+	height: 300px;
+	opacity: 0.6px;
+	margin-left: 200px;
+
+}
+#pi
+{
+	 width: 400px;
+	height: 250px;
+	opacity: 0.6px;
+	margin-left: 400px;
+
+}
+#hj
+{
+	font-weight: bolder;
+	font-size: 40px;
+
+}
+
+#a2
+{
+	margin-left: 400px;
+	font-size: 14px;
+	font-weight: bolder;
+	width: 80px;
+	height: 40px;
+}
+#aa
+{
+	margin-left: 50px;
+	font-size: 18px;
+	font-weight: bolder;
+	width: 90px;
+	height: 60px;
+}

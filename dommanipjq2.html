@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="rel.css">
+
+</head>
+<!--append()->inserts content at the end of the selected elements.
+	prepend()->inserts contents at the beginning of the selected elements.
+	after()->inserts content after the selected elements
+	before()->inserts content before the selected elementd-->
+<body>
+	<h3>jquery</h3>
+	<button id="btn1">append</button>
+	<button id="btn2">prepend</button>
+	<button id="btn3">after</button>
+	<button id="btn4">before</button>
+	<br><br>
+	<button id="btn5">remove</button>
+	<button id="btn6">empty</button>
+
+<div id="div1" class="mydiv">
+	<p id="p1" class="p1class" value="hello world">this is third paragraph<b>second</b></p>
+
+</div>
+
+</body>
+<script   src="https://code.jquery.com/jquery-3.4.1.js"   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="   crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		$("#btn1").click(function()
+		{
+			$("#div1").append("<p>this is second para</p>");
+
+		});
+		$("#btn3").click(function()
+		{
+			$("#div1").after("<p>this is second para</p>");
+
+		});
+		$("#btn2").click(function()
+		{
+			$("#div1").prepend("<p>this is second para</p>");
+
+		});
+		$("#btn4").click(function()
+		{
+			$("#div1").before("<p>this is second para</p>");
+
+		});
+		$("#btn5").click(function()
+		{
+			//$("#div1").remove("<p>this is second para</p>");
+			$("#p1,.p1class").remove("<p>this is second para</p>");
+
+		});$("#btn6").click(function()
+		{
+			$("#div1").empty("<p>this is second para</p>");
+
+		});
+			});
+</script>
+</html>

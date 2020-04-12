@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device=width,initial-scale=1.0">
+	<title></title>
+	<script type="text/javascript">
+		function validate()
+			{
+				var text=document.getElementById("text1").value;
+				var regx=/^([a-z A-z 0-9\.-]+)@([a-z A-z 0-9 -]+).([a-z]{2,20})$/;
+				if(regx.test(text))
+				{
+					
+					document.getElementById("lbtext").innerhtml="valid";
+					document.getElementById("lbtext").style.visibility="visible";
+					document.getElementById("lbtext").style.color="green";
+				}
+				else
+				{
+					
+					document.getElementById("lbtext").innerhtml="invalid";
+					document.getElementById("lbtext").style.visibility="visible";
+					document.getElementById("lbtext").style.color="red";
+				}
+
+			}
+	</script>
+	<style type="text/css">
+		
+	</style>
+
+		<link rel="stylesheet" type="text/css" href="webn.css">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="jquery-3.4.1.jsjquery-ui.css">
+<link rel="stylesheet" type="text/css" href="jquery-3.4.1.jsjquery-ui.structure.css">
+
+<link rel="stylesheet" type="text/css" href="jquery-3.4.1.jsjquery-ui.theme.css">
+		
+
+	
+</head>
+<body  bgcolor="silver" >
+	<h3 class="hea" align="center">stamp collecting world</h3>
+	
+	<div id="call">
+	 call at:+91(0)2032877458<br>
+		</div><p id="p1">Buy Stamps and Stamp Collections with Stamp Collection center</p>
+		<marquee id="m">all types of payments accepted</marquee> 
+		<br><br><br><br><p id="p4">The purpose of this STAMP COLLECTING website is to provide general information for visitors that may be interested in collecting stamps and to provide the specialized information needs of more advanced stamp collectors and philatelists.
+
+</p><br><br><br><br>
+<p id="ps">here you will get some information about stamps in different countries:-</p><br><br><br>
+<p id="pa">albania</p><a href="alban.html" type="submit" id="am">albania</a>
+<br><br><br><p id="pd">bulgaria</p><a href="bulgaria.html" type="submit" id="an">bulgaria</a>
+<p id="pc">belgium</p><a href="belgium.html" type="submit" id="al">belgium</a>
+<br><br><br>
+
+
+<p id="pf">cyprus</p><a href="cyprus.html" type="submit" id="ab">cyprus</a><br>
+
+	
+	
+		<p class="p3">
+			Why buy stamps from
+Stamp Collection Center?<br>
+1.000+ worldwide lots
+All lots fully photographed<br>
+Large Selection<br>
+Easy to use<br>
+Search by country
+Search by type
+Thousands of loyal<br> customers
+We're Always Here
+Call or email us, anytime<br>
+Around the clock support in USA and Europe<br>
+
+
+		</p><p id="p5">let's do some magic!!</p>
+		<button id="btn" type="submit" onclick="fn1()">wanna see!!</button>
+
+
+
+	<div class="sign-up-form" >
+		
+		<h1 color="black">SIGN UP</h1>
+		<marquee>This is an informative website about stamps</marquee>
+		<form action="catalogue.html">
+		<input type="email" class="input-box" placeholder="YOUR email"><br>
+		<input type="password" class="input-box" placeholder="YOUR password" required="">
+		<p><span><input type="checkbox"></span>i agree to the terms and condition</p>
+		<label id="lbtext" style="color: red;visibility: hidden;"></label>
+		<button id="text1" type="submit" class="sign-btn">sign up</button>
+		<img src="stamps.jpg">
+
+		
+	</form>
+	</div>
+
+</body>
+<script   src="https://code.jquery.com/jquery-3.4.1.js"   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="   crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+	function fn1()
+	{
+		
+		$("p").fadeToggle(1000);
+
+
+	} 
+</script>
+</html>

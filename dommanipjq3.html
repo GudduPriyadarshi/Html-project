@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="rel.css">
+
+</head>
+<!--addclass()->adds one or more classes to the selected elemets
+	removeclass()->remove one or more classes ro the selectd elements
+	toggleclass()->toggles between adding/removing classes from the selected elements
+	css()->sets or returns the style attribute-->
+<body>
+	<h3>jquery</h3>
+	<button id="btn1">addclass</button>
+	<button id="btn2">removeclass</button>
+	<button id="btn3">toggleclass</button>
+	<button id="btn4">css</button>
+
+<div id="div1" class="mydiv">
+	<p id="p1" class="p1class" value="hello world">this is third paragraph<b>second</b></p>
+
+</div>
+
+</body>
+<script   src="https://code.jquery.com/jquery-3.4.1.js"   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="   crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		$("#btn1").click(function()
+		{
+			$("#div1").addclass(".newdivclass");
+		});
+		$("#btn2").click(function()
+		{
+			$("#div1").removeclass(".newdivclass");
+		});
+		$("#btn3").click(function()
+		{
+			$("#div1").toggleclass(".newdivclass");
+		});
+		$("#btn4").click(function()
+		{
+			alert($("#div1").css("padding"));
+		});
+			});
+</script>
+</html>

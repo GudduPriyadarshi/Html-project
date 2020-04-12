@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="rel.css">
+	<link rel="stylesheet" type="text/css" href="jquery-3.4.1.jsjquery-ui.css">
+<link rel="stylesheet" type="text/css" href="jquery-3.4.1.jsjquery-ui.structure.css">
+
+<link rel="stylesheet" type="text/css" href="jquery-3.4.1.jsjquery-ui.theme.css">
+</head>
+<body>
+	<div id="mydiv">
+		<h1>jquery</h1>
+		<img src="stamp.jpg" width="200px" title="name" ismap="myimg">
+		
+	</div>
+
+</body>
+<script   src="https://code.jquery.com/jquery-3.4.1.js"   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="   crossorigin="anonymous"></script>
+<script   src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"   integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="   crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$("img").tooltip({
+		track:true,
+		content:"telusko",
+		//show:{effect:"pulsate",duration:2000}
+		//show:{effect:"highlights",duration:2000}
+		//show:{effect:"explode",duration:2000}
+		//show:{effect:"blind",duration:2000}
+		//show:{effect:"bounce",duration:2000}
+		hide:{effect:"explode",duration:3000}
+	});
+</script>
+</html>

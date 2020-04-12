@@ -1,0 +1,145 @@
+body
+{
+	background-size: cover;
+	opacity: 0-1px;
+	box-sizing: border-box;
+	
+	
+}
+#hh
+{
+	color: 0000000;
+
+}
+#p0
+{
+	color: #B8860B;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 26px;
+}
+button
+{
+	color: #00FFFF;
+}
+#bt
+{
+	margin-left: 600px;
+	width: 60px;
+	height: 30px;
+	cursor: pointer;
+	font-weight: bold;
+	color: #FF8C00;
+}
+#i1
+{
+	width: 250px;
+	height: 200px;
+	margin-left: 120px;
+}
+#i2
+{
+	width: 250px;
+	height: 200px;
+	margin-left: 650px;
+}
+#i3
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 260px;
+
+}
+#i4
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 320px;
+}
+#i5
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 520px;
+}
+#i6
+{
+
+	width: 200px;
+	height: 200px;
+	margin-left: 120px;
+}
+#i7
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 320px;
+}
+#p1
+{
+	color: #556B2F;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+#i8
+{
+	width: 250px;
+	height: 200px;
+	margin-left: 120px;
+}
+#i9
+{
+	width: 250px;
+	height: 200px;
+	margin-left: 650px;
+}
+#i10
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 260px;
+
+
+}
+#i11
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 320px;
+}
+#i12
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 520px;
+}
+#i13
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 320px;
+}
+#i14
+{
+	width: 550px;
+	height: 400px;
+	margin-left: 320px;
+}
+#a2
+{
+	margin-left: 400px;
+	font-size: 14px;
+	font-weight: bolder;
+	width: 80px;
+	height: 40px;
+}
+#aa
+{
+	margin-left: 50px;
+	font-size: 18px;
+	font-weight: bolder;
+	width: 90px;
+	height: 60px;
+}
